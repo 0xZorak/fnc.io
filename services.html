@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five Nines Consulting</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+.image-caption-container {
+    text-align: center;
+    max-width: 1248px; /* Adjust based on your design */
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.image-caption-container img {
+    width: 100%;
+    max-width: 1200px; /* Controls image width */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    display: block;
+    margin: auto;
+}
+
+.image-caption {
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+    padding: 10px;
+    max-width: 85%; /* Adjusts text width */
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top: 10px;
+}
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.service-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 180px;
+    object-fit: cover;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    padding: 0 10px;
+}
+
+.services-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.section-subtitle {
+    font-size: 12px;
+    color: #888;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.highlight {
+    color: orange; /* Orange color for 'Do' */
+}
+
+.section-description {
+    font-size: 16px;
+    color: #555;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.5;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <img src="fnc.png" alt="Five Nines Consulting Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="services.html" class="active">Services</a></li>
+        </ul>
+        <a href="contact.html" class="cts-button">Contact Us</a>
+    </nav>
+
+    <section class="services-section">
+        <p class="section-subtitle">OUR SERVICES</p>
+        <h1 class="section-title">What We <span class="highlight">Do</span></h1>
+        <p class="section-description">
+            Five Nines Consulting offers a comprehensive suite of IT and infrastructure services tailored to meet your business needs.
+        </p>
+    </section>
+    <div class="services-grid">
+        <div class="service-card">
+            <img src="image/custom-website.png" alt="Custom Website Development">
+            <h3>Custom Website Development</h3>
+            <p>Get a fully functional, professionally designed website built to your specifications. Flexible pricing based on features and requirements.</p>
+        </div>
+        
+        <div class="service-card">
+            <img src="image/it-support.png" alt="IT Support & Consulting">
+            <h3>IT Support & Consulting</h3>
+            <p>Expert technical guidance and infrastructure implementation. <strong>$50</strong> per hour for personalized support.</p>
+        </div>
+    
+        <div class="service-card">
+            <img src="image/on-site.png" alt="On-Site IT Services">
+            <h3>On-Site IT Services</h3>
+            <p>Hands-on assistance at your location. <strong>$150</strong> for a three-hour expert support session.</p>
+        </div>
+    
+        <div class="service-card">
+            <img src="image/custom-it.png" alt="Custom IT Solutions">
+            <h3>Custom IT Solutions</h3>
+            <p>Tailored IT solutions designed to meet your specific business requirements.</p>
+        </div>
+    
+        <div class="service-card">
+            <img src="image/cloud-migration.png" alt="Cloud Migration & Optimization">
+            <h3>Cloud Migration & Optimization</h3>
+            <p>Seamless migration to the cloud. Performance optimization and cost-effective cloud solutions.</p>
+        </div>
+    
+        <div class="service-card">
+            <img src="image/remote-support.png" alt="Remote IT Support">
+            <h3>Remote IT Support</h3>
+            <p>Available Monday through Friday during business hours. Ensuring smooth and uninterrupted operations but closed on weekends and holidays.</p>
+        </div>
+    </div>
+    
+
+    <div class="image-caption-container">
+        <img src="image/extendedrect.png" alt="Team Discussion">
+        <p class="image-caption">
+            <i>Five Nines Consulting delivers services through a client-focused approach, ensuring transparency, collaboration, and tailored solutions. 
+            We prioritize secure, efficient, and scalable blockchain and IT solutions while offering continuous support and expertise to meet client needs.</i>
+        </p>
+    </div>
+    
+  
+    <footer class="footer">
+        <div class="contact-us">
+            <h3>CONTACT US</h3>
+            <hr>
+        </div>
+        <div class="container">
+            
+            
+            <div class="footer-container">
+                <div class="footer-column">
+                   
+                    <div class="social-links">
+                        <a href="https://twitter.com" target="_blank">▶ X</a><br>
+                        <a href="https://linkedin.com" target="_blank">▶ LinkedIn</a><br>
+                        <a href="https://instagram.com" target="_blank">▶ Instagram</a><br>
+                        <a href="https://medium.com" target="_blank">▶ Medium</a>
+                    </div>
+                    
+                    <img src="fnc.png" alt="Five Nines Consulting" class="footer-logo">
+                </div>
+        
+                <div class="footer-column">
+                  <h3> <strong>Quick links</strong> </h3>
+                    <div class="quick-links">
+                       
+                        <a href="about.html">About Us</a><br>
+                        <a href="services.html">Services</a><br>
+                        <a href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+        
+                <div class="footer-column">
+                    <h3>Location</h3>
+                    <div class="lokation">
+                     
+                        <p>Roanoke, VA</p>
+                    </div>
+                </div>
+        
+                <div class="footer-column">
+                    <h3>Get in touch</h3>
+                    <p class="mails">ceepherhq@gmail.com</p>
+                    <h4>Phone</h4>
+                    <p class="mails">+234 907 638 4851</p>
+                </div>
+            </div>
+        <div class="footer-bottom">
+            <hr>
+            <p>© 2025 FIVE NINES CONSULTING</p>
+        </div>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

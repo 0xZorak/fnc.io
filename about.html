@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five Nines Consulting</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .card-container {
+    max-width: 1130px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    padding: 10px;
+}
+
+.card h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #000; /* Makes the heading black */
+}
+
+
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.services-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    max-width: 1130px;
+    margin: auto;
+}
+
+.services-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.services-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.services-content {
+    flex: 1;
+    text-align: left;
+}
+
+.services-content h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.service-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 14px;
+    margin-top: 0;
+    color: #555;
+}
+
+
+.purpose-container {
+    background-color: #2a1cc8; /* Dark Blue Background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    max-width: 1080px;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 60px;
+}
+
+.purpose-container h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.purpose-container p {
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: auto;
+}
+
+.image-content {
+    flex: 1;
+    max-width: 40%;
+}
+
+.image-content img {
+    width: 100%;
+    border-radius: 10px;
+}
+.hero-section {
+    background: url('image/image.png') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text readability */
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    max-width: 80%;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <img src="fnc.png" alt="Five Nines Consulting Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="services.html" class="active">Services</a></li>
+        </ul>
+        <a href="contact.html" class="cts-button">Contact Us</a>
+    </nav>
+
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>Transform your brand <br> ideas into reality</h1>
+            <p>
+                Five Nines Consulting delivers blockchain infrastructure, technical development, 
+                and operational <br> support services to build and transform your brand ideas.
+            </p>
+        </div>
+    </div>
+    
+
+    <div class="who-we-are" style="background-color: white;">
+        <div class="who-content">
+            <h2 style="color: black; text-align: left; margin-bottom: 30px;">Who Are We</h2>
+            <p style="color: #000;">We are committed to being your trusted partner in delivering comprehensive solutions. 
+                At Five Nines Consulting, we are more than just an IT service provider. 
+            We are a mission-driven organization dedicated to empowering at-need veterans 
+            through hands-on training and real-world experience. Our team comprises 
+            seasoned IT directors and skilled professionals who mentor and guide veterans 
+            in delivering top-tier IT solutions with precision and dedication.</p>
+        </div>
+        <div class="image-content">
+            <img src="image/Rectangle 123.png" alt="Team meeting">
+        </div>
+    </div>
+
+       
+
+    <div class="purpose-container">
+        <h2>Our Purpose</h2>
+        <p>
+            Five Nines Consulting is dedicated to advancing blockchain technology by publishing English white papers for transparency and knowledge sharing. 
+            This SLA outlines the terms for delivering blockchain infrastructure, technical development, and operational support to clients. 
+            It defines service scope, performance expectations, and mutual responsibilities to ensure effective collaboration.
+        </p>
+    </div>
+    
+
+
+    <div class="services-container">
+        <div class="services-image">
+            <img src="image/Rectangle 128.png" alt="Blockchain Services">
+        </div>
+        <div class="services-content">
+            <h2>Scope of Services</h2>
+            <div class="service-item">
+                <h3>Token Minting & Hosting</h3>
+                <p>Five Nines Consulting offers secure blockchain hosting, token minting, management, and distribution on Microsoft Azure, ensuring uptime, security, and smart contract integrity.</p>
+            </div>
+            <div class="service-item">
+                <h3>Operational Support</h3>
+                <p>Five Nines Consulting provides stable blockchain hosting, subsidized infrastructure support, and continuous maintenance, security monitoring, and system optimization.</p>
+            </div>
+            <div class="service-item">
+                <h3>Technical Development & Documentation</h3>
+                <p>Five Nines Consulting helps clients create technical documentation, white papers, and governance frameworks, offering exclusive support for an additional fee while encouraging clients to develop their own documentation.</p>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <div class="card-container">
+        <h2 style="color: #000;">Why Choose Five Nines Consulting?</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Veteran Empowerment</h3>
+                <p>Providing meaningful job opportunities and skill development for veterans in the IT industry.</p>
+            </div>
+            <div class="card">
+                <h3>Experienced Leadership</h3>
+                <p>A team of IT professionals with years of industry expertise, ensuring high-quality service.</p>
+            </div>
+            <div class="card">
+                <h3>Flexible & Scalable Solutions</h3>
+                <p>Custom-tailored services, from simple websites to full-scale IT infrastructure overhauls.</p>
+            </div>
+            <div class="card">
+                <h3>Commitment to Excellence</h3>
+                <p>Delivering high-quality, reliable solutions with a hands-on, client-focused approach.</p>
+            </div>
+            <div class="card">
+                <h3>Cutting-Edge Technology Implementation</h3>
+                <p>Leveraging AI-driven automation, cloud solutions, and advanced IT infrastructure to give clients a competitive edge.</p>
+            </div>
+            <div class="card">
+                <h3>Dedicated Client Success Managers</h3>
+                <p>Every project is assigned a dedicated expert to ensure seamless communication and outstanding service.</p>
+            </div>
+            <div class="card">
+                <h3>Serving Roanoke, VA & Beyond</h3>
+                <p>Providing meaningful job opportunities and skill development for veterans in the IT industry.</p>
+            </div>
+            <div class="card">
+                <h3>Experienced Leadership</h3>
+                <p>A team of IT professionals with years of industry expertise, ensuring high-quality service.</p>
+            </div>
+            <div class="card">
+                <h3>Flexible & Scalable Solutions</h3>
+                <p>Custom-tailored services, from simple websites to full-scale IT infrastructure overhauls.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="heder-section">
+            <h2>WHAT THEY SAID</h2>
+            <p style=" font-size: 32px; font-weight: 700; color: black;">Meet our clients from</p>
+            <p>around the globe</p>
+        </div>
+        
+
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>“This looks amazing. Thanks so much!”</p>
+                <div class="client">
+                    <img src="pfp.jpg" alt="Jane Brad">
+                    <div class="client-info">
+                        <strong>Jane Brad</strong><br>USA
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p>“This is the best so far. Thanks!”</p>
+                <div class="client">
+                    <img src="pfp.jpg" alt="John Kevin">
+                    <div class="client-info">
+                        <strong>John Kevin</strong><br>Nigeria
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p>“I'm so happy. This is just perfect!”</p>
+                <div class="client">
+                    <img src="pfp.jpg" alt="Dominic Jade">
+                    <div class="client-info">
+                        <strong>Dominic Jade</strong><br>Italy
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p>“This looks amazing. Thanks so much!”</p>
+                <div class="client">
+                    <img src="pfp.jpg" alt="Brad Kevin">
+                    <div class="client-info">
+                        <strong>Brad Kevin</strong><br>USA
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p>“This looks amazing. Thanks so much!”</p>
+                <div class="client">
+                    <img src="pfp.jpg" alt="Brad Kevin">
+                    <div class="client-info">
+                        <strong>Brad Kevin</strong><br>USA
+                    </div>
+                </div>
+            </div><div class="testimonial">
+                <p>“This looks amazing. Thanks so much!”</p>
+                <div class="client">
+                    <img src="pfp.jpg" alt="Brad Kevin">
+                    <div class="client-info">
+                        <strong>Brad Kevin</strong><br>USA
+                    </div>
+                </div>
+            </div><div class="testimonial">
+                <p>“This looks amazing. Thanks so much!”</p>
+                <div class="client">
+                    <img src="pfp.jpg" alt="Brad Kevin">
+                    <div class="client-info">
+                        <strong>Brad Kevin</strong><br>USA
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p>“This is the best so far. Thanks!”</p>
+                <div class="client">
+                    <img src="pfp.jpg" alt="John Kevin">
+                    <div class="client-info">
+                        <strong>John Kevin</strong><br>Nigeria
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+    </div>
+    <footer class="footer">
+        <div class="contact-us">
+            <h3>CONTACT US</h3>
+            <hr>
+        </div>
+        <div class="container">
+            
+            
+            <div class="footer-container">
+                <div class="footer-column">
+                   
+                    <div class="social-links">
+                        <a href="https://twitter.com" target="_blank">▶ X</a><br>
+                        <a href="https://linkedin.com" target="_blank">▶ LinkedIn</a><br>
+                        <a href="https://instagram.com" target="_blank">▶ Instagram</a><br>
+                        <a href="https://medium.com" target="_blank">▶ Medium</a>
+                    </div>
+                    
+                    <img src="fnc.png" alt="Five Nines Consulting" class="footer-logo">
+                </div>
+        
+                <div class="footer-column">
+                  <h3> <strong>Quick links</strong> </h3>
+                    <div class="quick-links">
+                       
+                        <a href="about.html">About Us</a><br>
+                        <a href="services.html">Services</a><br>
+                        <a href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+        
+                <div class="footer-column">
+                    <h3>Location</h3>
+                    <div class="lokation">
+                     
+                        <p>Roanoke, VA</p>
+                    </div>
+                </div>
+        
+                <div class="footer-column">
+                    <h3>Get in touch</h3>
+                    <p class="mails">ceepherhq@gmail.com</p>
+                    <h4>Phone</h4>
+                    <p class="mails">+234 907 638 4851</p>
+                </div>
+            </div>
+        <div class="footer-bottom">
+            <hr>
+            <p>© 2025 FIVE NINES CONSULTING</p>
+        </div>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
