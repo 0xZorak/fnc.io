@@ -1,0 +1,384 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 96px 40px 96px;
+}
+
+.hero-text {
+    font-family: "Montserrat", serif;
+    font-size: 64px;
+    font-weight: 800;
+    width: 653px;
+    height: 234px;
+    color: #000;
+    line-height: 78.02px;
+
+
+}
+
+.highlight-text {
+    display: block;
+    color: #FF6B35;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: 500;
+    height: 63px;
+    color: #666;
+    max-width: 566px;
+    line-height: 1.6;
+    font-family: "Work Sans", serif;
+    margin: 40px 0 60px 0;
+
+}
+
+.cta-button {
+    background-color: #000;
+    color: white;
+    width: 154px;
+    height: 48px;
+    padding: 14.5px 40px;
+
+
+    border-radius: 7px;
+
+    cursor: pointer;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    background: white;
+    /* padding: 20px; */
+    margin-right: 0;
+
+}
+
+.image-container img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.who-content h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48.76px;
+    font-family: "Montserrat", serif;
+    margin-top: 0;
+}
+
+.who-content h2 span {
+    color: #e0e0e0;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48.76px;
+    font-family: "Montserrat", serif;
+    margin-top: 0;
+}
+
+.who-content p {
+    font-size: 18px;
+    line-height: 21.11px;
+    font-weight: 500;
+    width: 437px;
+    height: 168px;
+    margin: 30px 0;
+    font-family: "Work Sans", serif;
+}
+
+.read-more {
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.who-we-are {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    background-color: #000;
+    color: white;
+    padding: 0 40px;
+    border-radius: 20px;
+    width: 1180.5px;
+    height: 424px;
+
+    margin: 120px auto;
+    /* Centers the section */
+}
+
+.who-content {
+    flex: 1;
+    padding-right: 20px;
+    margin-top: 40px;
+
+}
+
+.who-image img {
+    margin-top: 40px;
+    width: 500px;
+    /* Adjust the size */
+    height: 344px;
+    border-radius: 10px;
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    align-items: center;
+    gap: 10px;
+
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    margin-bottom: 25px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-family: "Work Sans", serif;
+    line-height: 18.77px;
+    font-size: 16px;
+    font-weight: 500;
+
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tag.blockchain {
+    background-color: #00d1b2;
+}
+
+.tag.cloud {
+    background-color: #6a5acd;
+}
+
+.tag.design {
+    background-color: #ff5733;
+}
+
+.tag.mobile {
+    background-color: #ffd700;
+}
+
+.tag.dev {
+    background-color: #ff33ff;
+}
+
+.tag.it {
+    background-color: #483d8b;
+}
+
+.tag.more {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+.services-images {
+    display: flex;
+
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+
+}
+
+.services-images img {
+    width: 403px;
+    height: 296px;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+.view-more {
+    display: block;
+    /* Makes it take full width if needed */
+    margin: 20px auto;
+    /* Centers the button */
+    background-color: black;
+    color: white;
+    padding: 12px 32px;
+    /* Wider button */
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    /* Reduced from 25px to 8px */
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+.view-more:hover {
+    background-color: #333;
+}
+
+.services-title {
+    text-align: center;
+    color: #000;
+    font-size: 56px;
+
+    line-height: 68.26px;
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.services-subtitle {
+    text-align: center;
+    line-height: 68.26px;
+    color: gray;
+    font-size: 56px;
+
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.services-header {
+    text-align: center;
+    font-size: 16px;
+    color: #626262;
+
+    height: 19px;
+    font-weight: 500;
+    font-family: "Work Sans", serif;
+    line-height: 18.77px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.testimonial {
+    width: 260px;
+    height: 122px;
+    text-align: left;
+}
+
+.testimonial p {
+    font-size: 18px;
+    font-family: "Montserrat", serif;
+    line-height: 21.94px;
+    font-weight: 600;
+    font-style: italic;
+    color: #626262;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.client img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.client-info {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.77px;
+    font-family: "Work Sans", serif;
+    color: #626262;
+}
+
+.vision-section {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.vision-section h1 {
+    font-size: 72px;
+
+    font-weight: 800;
+    line-height: 87.77px;
+    font-family: "Montserrat", serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.vision-section h2 {
+    font-size: 72px;
+
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 87.77px;
+    font-family: "Montserrat", serif;
+
+    color: #626262;
+    margin: 0;
+
+}
+
+.vision-section p {
+    margin-top: 10px;
+    color: #626262;
+    font-weight: 500;
+    font-family: "Work Sans", serif;
+    line-height: 18.77px;
+    font-size: 16px;
+}
+
+.heder-section {
+    text-align: center;
+    /* Center align the text */
+    margin-bottom: 40px;
+}
+
+.heder-section h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.77px;
+    font-family: "Montserrat", serif;
+    height: 19px;
+    color: #555;
+    text-transform: uppercase;
+}
+
+
+
+.heder-section p {
+    font-size: 44px;
+    font-weight: 700;
+    font-family: "Montserrat", serif;
+    line-height: 53.64px;
+    color: #777;
+    margin: 0;
+}
+

@@ -1,0 +1,142 @@
+.footer-bottom {
+    background-color: #000;
+  
+    padding: 10px 20px;
+    text-align: left;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.footer-bottom hr {
+    border: none;
+    border-top: 1px solid #444;
+
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.footer-bottom p {
+    color: #fff;
+    font-family: "Work Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.77px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+.contact-us {
+    background-color: #000;
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.contact-us h3 {
+    color: #fff;
+    font-family: "Work Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.77px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contact-us hr {
+    border: none;
+    border-top: 1px solid #444;
+   
+    width: 100%;
+}
+
+.footer {
+    background-color: #000;
+    padding: 30px 20px;
+    color: #d0cfc8;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 50px;
+}
+
+.footer-column h3 {
+    color: #fff;
+    font-family: "Montserrat", serif;
+    line-height: 19.5px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer-logo {
+    margin-top: 15px;
+    width: 149px;
+    height: 59px;
+    border-radius: 0;
+}
+
+.social-links a {
+    color: #C0BFB2;
+
+    font-family: "Montserrat", serif;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 29.26px;
+    font-weight: 700;
+    display: block;
+
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.social-links a:hover {
+    color: #fff;
+
+}
+
+.quick-links a {
+    color: #C0BFB2;
+    font-family: "Work Sans", serif;
+    text-decoration: none;
+
+    font-weight: 500;
+    display: block;
+    margin: 5px 0;
+}
+
+.quick-links a:hover {
+    color: #fff;
+}
+
+
+.mails {
+    color: #C0BFB2;
+
+    font-family: "Work Sans", serif;
+    font-size: 16px;
+    line-height: 18.77px;
+
+    font-weight: 500;
+    display: block;
+    margin: 5px 0;
+}
