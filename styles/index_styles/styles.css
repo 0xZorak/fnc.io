@@ -1,8 +1,9 @@
 .hero-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin: 40px 96px 40px 96px;
+    /* justify-content: space-between; */
+    margin: 40px auto;
+    width: 1180.5px;
 }
 
 .hero-text {
@@ -276,8 +277,11 @@ img {
 .testimonials {
     display: flex;
     flex-wrap: wrap;
+    /* align-items: center; */
     justify-content: center;
     gap: 30px;
+    width: 1180.5px;
+    margin: auto;
 }
 
 .testimonial {

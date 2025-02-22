@@ -7,13 +7,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: auto;
+    width: 1200.5px;
+    margin: auto;
 
     height: 104.14px;
     background: white;
-    position: relative;
+    /* position: relative; */
 
-    border: 16px 96px 16px 96px;
+    /* border: 16px 96px 16px 96px; */
 
 }
 

@@ -53,9 +53,9 @@ h2 {
     justify-content: center;
     gap: 40px;
  
-    width: auto;
+    width: 1200.5px;
     height: auto;
-    margin: 80px 120px;
+    margin: 80px auto;
   
 }
 
@@ -116,9 +116,9 @@ h2 {
     color: white;
     text-align: center;
     padding: 20px;
-    width: auto;
+    width: 1180.5px;
     height: auto;
-    margin: 0 120px;
+    margin: 0 auto;
     border-radius: 15px;
     margin-bottom: 60px;
 }
@@ -158,6 +158,8 @@ h2 {
     align-items: center;
     justify-content: center;
     text-align: center;
+    width: 1180.5px;
+    margin: 0 auto;
     padding: 20px;
     position: relative;
 }
@@ -251,6 +253,8 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    width: 1180.5px;
+    margin: auto;
     margin-bottom: 140px;
 }
 
