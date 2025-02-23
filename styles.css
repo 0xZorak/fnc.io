@@ -1,11 +1,58 @@
-body {
-    width: auto;
-    height: auto;
-    margin: 0;
+* {
+    box-sizing: border-box;
 }
 
+body, html {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    overflow-x: hidden; 
+}
 
+.hero-section, .who-we-are, .services-section, .testimonials, .footer-container {
+    max-width: 100%;
+    padding: 0 20px; 
+    box-sizing: border-box;
+}
 
+.navbar {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.nav-links {
+    display: none; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-links.active {
+    display: flex; 
+}
+
+.cts-button {
+    margin-top: 10px;
+}
+
+.menu-button {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+    }
+    .menu-button {
+        display: none;
+    }
+}
 
 .contact-section {
   
@@ -148,7 +195,6 @@ button:hover {
 
 .section-title span {
     color: #ff5722;
-    /* Orange for 'Do' */
 }
 
 .section-description {
@@ -158,7 +204,6 @@ button:hover {
     color: #555;
 }
 
-/* Service Grid */
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

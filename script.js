@@ -15,3 +15,11 @@ document.querySelectorAll(".footer a").forEach(link => {
         console.log(`Navigating to: ${link.innerText}`);
     });
 })
+
+function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+    const menuButton = document.querySelector('.menu-button');
+    menuButton.textContent = navLinks.classList.contains('active') ? '×' : '☰';
+    
+}
