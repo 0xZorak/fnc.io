@@ -321,3 +321,38 @@ h2 {
     margin: 0;
 }
 
+.card-container, .services-container, .purpose-container, .who-we-are, .testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.card-container h2, .purpose-container h2, .who-content h2, .testimonial p, .client-info, .hero-content h1, .hero-content p, .who-content p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .card-container, .services-container, .purpose-container, .who-we-are, .testimonials {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-container h2, .purpose-container h2, .who-content h2, .testimonial p, .client-info, .hero-content h1, .hero-content p, .who-content p {
+        font-size: 14px; /* Adjust font size for better readability */
+    }
+}
+

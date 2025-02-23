@@ -14,8 +14,10 @@
     height: 234px;
     color: #000;
     line-height: 78.02px;
-
-
+    margin: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .highlight-text {
@@ -32,7 +34,9 @@
     line-height: 1.6;
     font-family: "Work Sans", serif;
     margin: 40px 0 60px 0;
-
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .cta-button {
@@ -90,6 +94,10 @@ img {
     height: 168px;
     margin: 30px 0;
     font-family: "Work Sans", serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .read-more {
@@ -280,6 +288,10 @@ img {
     font-weight: 600;
     font-style: italic;
     color: #626262;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .client {
@@ -301,6 +313,10 @@ img {
     line-height: 18.77px;
     font-family: "Work Sans", serif;
     color: #626262;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .vision-section {
@@ -318,6 +334,10 @@ img {
     font-family: "Montserrat", serif;
     text-transform: uppercase;
     margin: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .vision-section h2 {
@@ -330,7 +350,10 @@ img {
 
     color: #626262;
     margin: 0;
-
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .vision-section p {
@@ -340,6 +363,10 @@ img {
     font-family: "Work Sans", serif;
     line-height: 18.77px;
     font-size: 16px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
 
 .heder-section {
@@ -366,5 +393,12 @@ img {
     line-height: 53.64px;
     color: #777;
     margin: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
 }
+
+/* Example media query for mobile view */
+
 
