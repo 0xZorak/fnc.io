@@ -18,6 +18,7 @@
     font-size: 18px;
    font-weight: 600;
     color: #626262;
+    max-width: 90vw;
    
  
     font-family: "Work Sans", serif; 
@@ -119,6 +120,7 @@ h3 {
     width: 816px;
     font-weight: 500;
     margin: auto;
+    max-width: 90vw;
     
     text-align: center;
 }
