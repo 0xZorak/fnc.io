@@ -78,6 +78,7 @@ body, html {
     height: 78px;
     font-family: "Montserrat", serif;
     font-weight: 700;
+    max-width: 90vw;
    
     margin-bottom: 10px;
     text-align: left;
@@ -252,4 +253,19 @@ h2 {
     font-weight: 700;
     color: #777;
     margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .contact-section h1 {
+        max-width: 90vw;
+        text-align: center;
+        display: block;
+        margin-bottom: 100px;
+    }
+
+        .sub-text {
+            text-align: center;
+            max-width: 90vw;
+            display: block;
+        }
 }
