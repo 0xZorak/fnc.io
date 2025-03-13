@@ -2,44 +2,58 @@
     font-family: "Work Sans", serif;
     font-size: 16px;
     line-height: 18.77px;
-
-    font-style: normal;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box;
-
-    height: 104.14px;
+    width: auto;
+    padding: 15px 30px;
     background: white;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
 }
 
 .navbar-brand img {
-    height: 56.14px;
+    height: 56px;
     width: 157px;
-    border-radius: 0;
 }
 
 .nav-links {
     list-style: none;
-    display: none; 
-    flex-direction: column;
-    gap: 20px;
-    position: fixed; 
-    top: 5rem; 
-    right: 0; 
-    width: 100%;
-    background-color: white;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 1000; 
+    display: flex;
+    gap: 40px;
+    text-align: center;
 }
 
-.nav-links.active {
-    display: flex; 
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.nav-links a.active {
+    color: #FF6B35;
+    font-weight: bold;
+}
+
+.cts-button {
+    background-color: #FF6B35;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s ease;
 }
 
 @media (min-width: 768px) {
@@ -105,4 +119,50 @@
         text-align: center;
         margin-top: 10px;
     }
+    .navbar {
+        font-family: "Work Sans", serif;
+        font-size: 16px;
+        line-height: 18.77px;
+    
+        font-style: normal;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        box-sizing: border-box;
+    
+        height: 104.14px;
+        background: white;
+    }
+    
+    .navbar-brand img {
+        height: 56.14px;
+        width: 157px;
+        border-radius: 0;
+    }
+    
+    .nav-links {
+        list-style: none;
+        display: none; 
+        flex-direction: column;
+        gap: 20px;
+        position: fixed; 
+        top: 5rem; 
+        right: 0; 
+        width: 100%;
+        background-color: white;
+        padding: 10px;
+        
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 1000; 
+    }
+    
+    .nav-links.active {
+        display: flex; 
+    }
+    
 }
+

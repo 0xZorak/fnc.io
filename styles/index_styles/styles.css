@@ -1,9 +1,9 @@
 .hero-section {
     display: flex;
-    flex-direction: column;
+  
     align-items: center;
     margin: 40px auto;
-    width: 100%;
+    width: 1180px;
 }
 
 .hero-text {
@@ -58,7 +58,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 600px;
 }
 
 .image-container img {
@@ -125,7 +125,7 @@ img {
     color: white;
     padding: 0 40px;
     border-radius: 20px;
-    width: 1180.5px;
+    width: 1150.5px;
     height: 424px;
 
     margin: 120px auto;
@@ -134,15 +134,17 @@ img {
 .who-content {
     flex: 1;
     padding-right: 20px;
+    
     margin-top: 40px;
 
 }
 
 .who-image img {
     margin-top: 40px;
-    width: 500px;
+    width: 550px;
     height: 344px;
     border-radius: 10px;
+    padding-right: 10px;
 }
 
 .tags-container {
@@ -209,6 +211,7 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
     margin-bottom: 30px;
+    
 }
 
 .services-images img {
@@ -417,6 +420,23 @@ img {
         font-size: 45px; /* Adjusted font size for mobile */
         line-height: 50px; /* Adjusted line height for mobile */
     }
+    .who-we-are{
+        padding: 0 20px;
+    }
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 40px auto;
+        width: 100%;
+    }
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
 }
 
 
