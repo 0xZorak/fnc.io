@@ -23,3 +23,6 @@ function toggleMenu() {
     menuButton.textContent = navLinks.classList.contains('active') ? '×' : '☰';
     
 }
+function goBack() {
+    window.history.back();
+}
