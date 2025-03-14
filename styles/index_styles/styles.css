@@ -114,7 +114,7 @@ img {
     font-weight: bold;
     cursor: pointer;
     margin-top: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .red-more {
     background: black;
@@ -143,6 +143,7 @@ img {
     .founder-image {
         width: 90%;
         height: auto;
+        object-fit:cover;
     }
 
     .founder-content {
