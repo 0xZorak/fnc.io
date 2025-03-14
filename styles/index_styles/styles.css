@@ -207,6 +207,7 @@ img {
     height: 344px;
     border-radius: 10px;
     padding-right: 10px;
+    object-fit: scale-down;
 }
 
 .founder-container {
