@@ -8,7 +8,7 @@
 
 .hero-text {
     font-family: "Montserrat", serif;
-    font-size: 64px;
+    font-size: 44px;
     font-weight: 800;
     width: 653px;
     height: 234px;
@@ -518,7 +518,7 @@ img {
 /* Example media query for mobile view */
 @media (max-width: 767px) {
     .hero-text {
-        font-size: 45px; /* Adjusted font size for mobile */
+        font-size: 25px; /* Adjusted font size for mobile */
         line-height: 50px; /* Adjusted line height for mobile */
     }
 
