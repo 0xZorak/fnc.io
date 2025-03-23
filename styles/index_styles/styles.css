@@ -585,9 +585,7 @@ flex-direction: row-reverse;
     transform: rotate(-20deg);
 }
 .icon2 {
-    top: 20%;
-    right: 15%;
-    transform: rotate(15deg);
+  
 }
 .icon3 {
     bottom: 20%;
