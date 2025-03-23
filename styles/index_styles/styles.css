@@ -302,6 +302,7 @@ font-weight: 600;
     .founder-content h2 {
         font-size: 1.8rem;
         text-align: left;
+        margin-bottom: 12px;
     }
 
     .founder-content p {
