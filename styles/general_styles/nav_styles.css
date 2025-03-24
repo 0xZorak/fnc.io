@@ -21,6 +21,16 @@
     width: 157px;
 }
 
+.cont{
+    text-decoration: none;
+    background-color: #FF6B35;
+    padding: 14.5px 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    color: white;
+    margin-right: 20px;
+}
 .nav-links {
     list-style: none;
     display: flex;
@@ -119,6 +129,8 @@
         text-align: center;
         margin-top: 10px;
     }
+    .cont{
+        display: none;    }
     .navbar {
         font-family: "Work Sans", serif;
         font-size: 16px;
