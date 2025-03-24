@@ -231,6 +231,7 @@ height: 400px;
      margin: 0 auto;
      margin-top: 140px;
      height: 469px;
+     margin-bottom: 70px;
 }
 
 .founder-container3 {
@@ -240,6 +241,7 @@ height: 400px;
      max-width: 1200px;
      align-items: center;
      justify-content: center;
+     
 }
 
 /* Image Styling */
