@@ -1,0 +1,39 @@
+.founder-section{
+    margin-top: 140px;
+    height: 450px;
+}
+.hero{
+    margin-top: -20px;
+}
+@media (max-width: 767px) {
+    .hero h1{
+font-size: 40px;
+    }
+    .founder-section{
+        margin-top: -100px;
+    }
+    .founder-content h2{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+}
+.founder-content span{
+    color: #000;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+@media (min-width: 769px) {
+    .founder-image{
+height: 400px;
+    }
+    .founder-content{
+        height: 400px;
+    }
+    .founder-content h2{
+        margin-top: 5px;
+    }
+}
