@@ -208,7 +208,7 @@ height: 344px ;
     font-size: 24px;
     font-family: "Montserrat", serif;
     color: #000;
-    margin-bottom: -2px;
+    margin-bottom: 8px;
     margin-top: -8px;
     font-weight: bold;
 }
@@ -668,7 +668,7 @@ flex-direction: row-reverse;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 323px;
+    height: 343px;
 }
 
 /* SVG Icons */
@@ -679,24 +679,31 @@ flex-direction: row-reverse;
     opacity: 0.9;
 }
 
-/* Specific Positioning & Rotation */
+
 .icon1 {
     top: 60%;
     width: 95px;
     left: 1%;
+    height: 95px;
     transform: rotate(-297.13deg);
 }
 .icon2 {
-  top: 80%;
+  top: 51%;
+  width: 230px;
+  height: 230px;
 }
 .icon3 {
     bottom: 20%;
     left: 36%;
-    top:-10%;
+    top:-6%;
+    width: 71px;
+    height: 71px;
 }
 .icon4 {
-    bottom: 10%;
+    top: 40%;
     right: 10%;
+    height: 85px;
+    width: 85px;
     transform: rotate(-25deg);
 }
 
@@ -713,15 +720,42 @@ flex-direction: row-reverse;
         margin: 0 auto;
         padding: 10px;
         margin-top: 20px;
+        height: 340px;
     }
 
     .feature-image {
-        height: 302px;
+        height: 202px;
     }
 
     .icon {
         width: 40px;
         height: 40px;
+    }
+    .icon1 {
+        top: 40%;
+        width: 45px;
+        left: 5%;
+        height: 45px;
+        transform: rotate(-308.13deg);
+    }
+    .icon2 {
+      top: 69%;
+      width: 100px;
+      height: 90px;
+    }
+    .icon3 {
+        bottom: 20%;
+        left: 36%;
+        top:-6%;
+        width: 38px;
+        height: 38px;
+    }
+    .icon4 {
+        top: 40%;
+        right: 10%;
+        height: 45px;
+        width: 45px;
+        transform: rotate(-25deg);
     }
     .serve{
         width: 100%;
