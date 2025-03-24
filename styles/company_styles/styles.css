@@ -28,6 +28,7 @@ font-size: 40px;
         .block{
             display: none;
         }
+
 }
 .founder-content span{
     color: #000;
@@ -177,7 +178,7 @@ height: 400px;
           height: fit-content;
           flex-direction: column-reverse;
           padding: 20px;
-          margin-top: 500px;
+          margin-top: 550px;
      }
 
      .founder-section2{
@@ -196,13 +197,13 @@ height: 400px;
 
      .founder-content2 h2 {
           font-size: 18px;
-          text-align: left;
+          text-align: justify;
           margin-bottom: 12px;
      }
 
      .founder-content2 p {
           font-size: 16px;
-          text-align: justify;
+          text-align: left;
           margin-bottom: 32px;
      }
 }
@@ -355,8 +356,8 @@ height: 400px;
           font-weight: 500;
      }
 
-     .founder-content3 h2 {
-          font-size: 18px;
+     .founder-content3 h1 {
+          font-size: 24px;
           text-align: left;
           margin-bottom: 12px;
      }
