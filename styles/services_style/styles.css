@@ -17,7 +17,7 @@
     width: 1060px;
     font-size: 18px;
    font-weight: 600;
-    color: #626262;
+    color: #626266;
     max-width: 90vw;
    
  
@@ -32,7 +32,7 @@
 .serve-section {
     padding: 60px 10%;
    
-    color: #626262;
+    color: #626266;
 }
 
 .contain {
@@ -64,13 +64,14 @@
     font-family: "Montserrat", serif;
 }
 span{
-    color: #626262;
+    color: #626266;
 }
 
 .text-content p {
     font-size: 16px;
-    color: #626262;
+    color: #626266;
     max-width: 500px;
+    font-weight: 500;
     font-family: "Work Sans", serif;
 }
 
@@ -98,11 +99,17 @@ span{
         width: 100%;
     }
     .text-content h2 {
-        font-size: 30px;
+        font-size: 33px;
         width: 100%;
         margin: 0 auto;
         padding: 0px;
     
+}
+
+.serve-section {
+    padding: 20px 5%;
+   
+    color: #626266;
 }
 }
 
@@ -147,7 +154,7 @@ span{
 
 .service-card p {
     font-size: 16px;
-    color: #626262;
+    color: #626266;
     font-family: "Work Sans", serif;
     margin-bottom: 32px;
     line-height: 1.6;
@@ -268,7 +275,7 @@ span{
     align-items: center;
     padding: 20px;
     
-    color: #626262;
+    color: #626266;
 }
 
 /* Section Heading */
@@ -278,11 +285,12 @@ span{
     text-align: center;
     color: #000;
     margin-bottom: 64px;
+    margin-top: -20px;
     font-family: "Montserrat", serif;
 }
 
 .section-heading span {
-    color: #626262;
+    color: #626266;
 }
 
 /* Hero Section */
@@ -310,7 +318,7 @@ span{
     width: 100%;
    max-width: 600px;
   margin-top: -170px;
-    color: #626262;
+    color: #626266;
     border-radius: 0 0 12px 12px;
 }
 
@@ -345,7 +353,7 @@ span{
 .feature-card {
     background: #fff;
     border-radius: 12px;
-    padding: 25px;
+    padding: 5px;
     width: 100%;
     max-width: 471px;
     border: 1px solid #ddd;
@@ -371,6 +379,7 @@ span{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: -20px;
 }
 
 .feature-list {
@@ -396,6 +405,9 @@ span{
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .body{
+        margin-top: 80px;
+    }
     .hero-overlay {
         padding: 20px;
         text-align: center;
@@ -408,6 +420,46 @@ span{
 
     .feature-card {
         max-width: 100%;
+    }
+    .hero-image{
+        height: 400px;
+        width: auto;
+        max-width: 400px;
+        max-width: 100%;
+        padding: 0px;
+        content: 'image/hero.png';
+        object-fit: cover;
+        filter: brightness(40%);
+
+    }
+    .hero-section p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .hero-overlay{
+        
+        margin-top: -300px;
+        padding: 10px;
+       
+        text-align: left;
+       
+
+    }
+    .hero-section{
+        width: 100%;
+        max-width: 700px;
+        padding: 0px;
+        
+    }
+    .section-heading{
+        font-size: 25px;
+        margin-top: 70px;
+        max-width: 600px;
+        width: 100%; 
+        padding: 0px;
+        margin: 0;
+        margin-bottom: 50px;
+        display: inline-block;
     }
 }
 
@@ -423,13 +475,114 @@ span{
     font-weight: 600;
     text-decoration: none;
     color: #fff; /* Adjust color as needed */
-  
+    font-family: "Work Sans", serif;
     border-radius: 6px;
     transition: all 0.3s ease-in-out;
 }
-
+.black .feature-title{
+color: #fff;
+font-family: "Montserrat", serif;
+font-size: 18px;
+font-weight: 600;
+}
 .more-details img {
     width: 18px;  /* Adjust icon size */
     height: auto;
     transition: transform 0.3s ease-in-out;
+}
+.shine .more-details{
+    color: #626266;
+}
+.bright .feature-title{
+    font-family: "Montserrat", serif;
+    text-align: left;
+    font-size: 18px;
+}
+.feature-card.bright{
+    padding: 25px;
+}
+
+.summary {
+           
+    color: #626266;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    max-width: 1060px;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    gap: 84px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.image-container {
+    flex: 1;
+    max-width: 340px;
+    max-height: 550px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 12px 0 0 12px;
+}
+
+.text-container {
+    flex: 1;
+    padding: 10px;
+    max-width: 655px;
+    height: 280px;
+}
+
+.text-container h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #626266;
+    font-family: "Work Sans", serif;
+    font-weight: 600;
+}
+
+.text-container em {
+    font-weight: 700;
+    font-style: italic;
+    color: #626266;
+}
+
+@media (max-width: 768px) {
+    .content-section {
+        flex-direction: column;
+    }
+
+    .image-container {
+        max-width: 100%;
+    }
+
+    .image-container img {
+        border-radius: 12px 12px 0 0;
+    }
+
+    .text-container {
+        max-width: 100%;
+        padding: 0px;
+        text-align: left;
+        margin-top: -60px;
+        
+    }
 }

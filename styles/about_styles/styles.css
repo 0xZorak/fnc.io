@@ -140,7 +140,7 @@ h2 {
     font-family: "Montserrat", serif;
     font-weight: 700;
     /* line-height: 100%; */
-    color: #626262;
+    color: #626266;
     margin-top: 0;
     margin-bottom: 20PX;
     text-align: justify;
@@ -158,7 +158,7 @@ h2 {
     font-size: 20px;
     width: 700px;
     font-family: "Work Sans", serif;
-    color: #626262;
+    color: #626266;
     font-weight: 500;
     /* line-height: 100%; */
     margin-top: 30px;
@@ -293,7 +293,7 @@ h2 {
 .who-content p {
     font-size: 20px;
     line-height: 23.46px;
-    color: #626262;
+    color: #626266;
     font-weight: 500;
     width: 100%;
     height: auto;
@@ -356,7 +356,7 @@ h2 {
     line-height: 21.94px;
     font-weight: 600;
     font-style: italic;
-    color: #626262;
+    color: #626266;
 }
 
 .client {
@@ -377,7 +377,7 @@ h2 {
     font-weight: 500;
     line-height: 18.77px;
     font-family: "Work Sans", serif;
-    color: #626262;
+    color: #626266;
 }
 
 .heder-section {

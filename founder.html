@@ -3,187 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redundancy Solutions</title>
+    <title>Responsive Section</title>
     <style>
-  
-.body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    
-    color: #626262;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
 
-/* Section Heading */
-.section-heading {
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
-    color: #000;
-    margin-bottom: 50px;
-}
+        .summary {
+           
+            color: #626266;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            padding: 20px;
+        }
 
-.section-heading span {
-    color: #626262;
-}
+        .content-section {
+            display: flex;
+            align-items: center;
+            max-width: 1000px;
+            width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+            gap: 84px;
+            
+        }
 
-/* Hero Section */
-.hero-section {
-    width: 100%;
-    max-width: 1060px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 12px;
-    background: #fff;
-}
+        .image-container {
+            flex: 1;
+            max-width: 340px;
+            max-height: 550px;
+        }
 
-.hero-image {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 12px;
-}
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            border-radius: 12px 0 0 12px;
+        }
 
-.hero-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 30px;
-    background: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    border-radius: 0 0 12px 12px;
-}
+        .text-container {
+            flex: 1;
+            padding: 10px;
+            max-width: 605px;
+            height: 280px;
+        }
 
-.hero-overlay h2 {
-    font-size: 28px;
-    font-weight: bold;
-}
+        .text-container h2 {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
 
-.hero-overlay p {
-    font-size: 16px;
-    margin-top: 8px;
-    max-width: 600px;
-    font-weight: 600;
-    line-height: 1.5;
-}
+        .text-container p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #e6e6e6;
+            font-family: "Work Sans", serif;
+            font-weight: 600;
+        }
 
-/* Features Section */
-.features-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 50px;
-    width: 100%;
-    max-width: 1160px;
-}
+        .text-container em {
+            font-weight: bold;
+            font-style: italic;
+            color: #ccc;
+        }
 
-.feature-card {
-    background: #fff;
-    border-radius: 12px;
-    padding: 25px;
-    width: 100%;
-    max-width: 500px;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
+        @media (max-width: 768px) {
+            .content-section {
+                flex-direction: column;
+            }
 
-.feature-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-}
+            .image-container {
+                max-width: 100%;
+            }
 
-.feature-icon img {
-    width: 50px;
-    height: auto;
-}
+            .image-container img {
+                border-radius: 12px 12px 0 0;
+            }
 
-.feature-title {
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.feature-list {
-    font-size: 16px;
-    color: #555;
-    list-style: none;
-    padding-left: 0;
-    line-height: 1.6;
-}
-
-.feature-list li {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 8px 0;
-}
-
-.feature-list li::before {
-    content: url('image/checkmark-badge-01.png');
-    width: 18px;
-    height: 18px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .hero-overlay {
-        padding: 20px;
-        text-align: center;
-    }
-
-    .features-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .feature-card {
-        max-width: 100%;
-    }
-}
-
+            .text-container {
+                max-width: 100%;
+                padding: 20px;
+            }
+        }
     </style>
 </head>
 <body>
-<section class="body">
-    <h1 class="section-heading">Schedule Optimization & <br><span>
-        Redundancy Solutions</span></h1>
-
-    <div class="hero-section">
-        <img src="image/Frame 1000005521 (1).png" alt="Redundancy Solutions" class="hero-image">
-        <div class="hero-overlay">
-            <h2>Five Nines Consulting</h2>
-            <p>At Five Nines Consulting (FNC), we've always been committed to precision, reliability, and delivering high-quality service. We understand that businesses require dependable support at all times, and we’re stepping up to ensure you get exactly that.</p>
+<section class="summary">
+    <div class="content-section">
+        <div class="image-container">
+            <img src="image/summary.png" alt="Team Discussion">
         </div>
-    </div>
+        <div class="text-container">
+            <p>At FNC, we believe in building long-term relationships based on trust, reliability, and innovation. If you're looking for a fully dedicated vendor to handle your IT and consulting needs with zero downtime, we are here for you—but premium service comes at a premium price.</p>
 
-    <div class="features-container">
-        <div class="feature-card">
-            <div class="feature-icon icon-blue"><img src="image/user-group.png"></div>
-            <div class="feature-title">What this means for you</div>
-            <ul class="feature-list">
-                <li>No matter the time, our team is ready to assist.</li>
-                <li>Business doesn't stop, and neither do we.</li>
-                <li>We can be your sole IT & consulting provider, ensuring seamless integration and dedicated service.</li>
-                <li>If you require immediate attention at odd hours, you will be covered.</li>
-            </ul>
-        </div>
+            <p>Let's talk about how this shift benefits your business. Get in touch to discuss customized coverage options, pricing, and exclusive vendor agreements that keep your operations running at peak efficiency.</p>
 
-        <div class="feature-card">
-            <div class="feature-icon icon-orange"><img src="image/hot-price.png"></div>
-            <div class="feature-title">What this means for our team & pricing</div>
-            <ul class="feature-list">
-                <li>Premium Compensation for Employees. Those working weekends, night shifts, and emergency calls will receive additional pay.</li>
-                <li>Customer Cost Adjustments. Extended-hour support, overnight responses, and urgent requests will reflect in premium pricing for sustainability.</li>
-                <li>Time Zone Adaptation. As we transition into full coverage, we ask for patience while we align our team across different global time zones.</li>
-            </ul>
+            <p><em>Five Nines Consulting – Precision, Reliability, and Now, Always Available.</em></p>
         </div>
     </div>
 </section>
