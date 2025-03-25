@@ -3,74 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Five Nines Consultingt</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-        <link rel="stylesheet" href="styles/general_styles/nav_styles.css">
-  
-        <link rel="stylesheet" href="styles/general_styles/footer.css">
-        <link rel="stylesheet" href="styles/founder_styles/styles.css">
+    <title>Elegant Blog Section</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        .blog-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            max-width: 1100px;
+            margin: auto;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-content {
+            flex: 1;
+            min-width: 320px;
+        }
+
+        .blog-content small {
+            font-size: 12px;
+            color: #888;
+            text-transform: uppercase;
+        }
+
+        .blog-content h2 {
+            font-size: 36px;
+            color: #222;
+            margin-top: 5px;
+        }
+
+        .blog-content p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+
+        .blog-media {
+            flex: 1;
+            min-width: 320px;
+            text-align: center;
+        }
+
+        .blog-media img {
+            width: 100%;
+            max-width: 340px;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .blog-media img:hover {
+            transform: scale(1.05);
+        }
+
+        .blog-meta {
+            font-size: 12px;
+            color: gray;
+            margin-top: 10px;
+            text-transform: uppercase;
+        }
+
+        .blog-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #222;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .blog-container {
+                flex-direction: column;
+                text-align: center;
+                padding: 30px;
+            }
+
+            .blog-media {
+                margin-top: 20px;
+            }
+
+            .blog-media img {
+                max-width: 80%;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <button class="back-button" onclick="goBack()">&#8592;</button>
-        <a href="https://www.gofundme.com/f/help-me-overcome-ptsd-dependance-and-autoimmune-disease?attribution_id=sl:138eb40b-0ef2-4469-8f0a-2a3357b6e97e&lang=en_US&utm_campaign=man_sharesheet_dash&utm_content=amp13_t1-amp14_c&utm_medium=customer&utm_source=copy_link" target="_blank" class="gofundme-button">gofund.me</a>
-    </div>
-      
-           
-    <div class="founder-section">
-        <h2 class="section-title">Founder's story</h2>
-        <div class="image-gallery">
-            <img src="image/tehrus.png" alt="Founder Image 1">
-            <img src="image/tehrus2.png" alt="Founder Image 2">
-            <img src="image/tehrus3.png" alt="Founder Image 3">
-            <img src="image/tehrus4.png" alt="Founder Image 4">
+
+    <div class="blog-container">
+        <div class="blog-content">
+            <small>Blog</small>
+            <h2>Insights</h2>
+            <p>Welcome to the Five Nines Blog. Here, we share insights, industry trends, and tips on Web3 development, 
+               digital transformation, and AI. Whether you’re a tech enthusiast or a business leader, you’ll find 
+               valuable content to inspire and inform. Join us on our journey to explore the latest in digital solutions.</p>
+        </div>
+        <div class="blog-media">
+            <img src="image/Frame 26088157.png" alt="Blockchain Image">
+            <div class="blog-meta">Blog by Vasily S. Ivanov</div>
+            <div class="blog-title">MFA NFT Marketplace Whitepaper</div>
         </div>
     </div>
-    <div class="story-container">
-        <h2>Help Me Recover and Rebuild My Future</h2>
-        <p>For years, I've worked in high-stakes environments, solving complex problems under immense pressure. 
-            I pushed myself past my limits time and time again, believing that resilience alone would keep me going.
-             But the reality is, no one can outrun burnout forever. This time, I hit a breaking point.</p>
-    
-        <p>After months of unpaid leave, I found myself battling not only mental exhaustion but a serious health crisis.
-             The physical strength I once had is gone, replaced by the toll of an autoimmune condition 
-             that took months to diagnose. At the same time, I'm working through a recovery program to break 
-             free from the dependencies I developed to keep up with impossible expectations.</p>
-    
-        <p>Through it all, my wife has carried the weight of our family alone—raising a newborn and a toddler while 
-            I've been in and out of treatment. At this stage, they need me more than ever, and I need to get back on my
-             feet—not just for myself, but for them.</p>
-    
-        <p>Now, I have a choice. I can either get forced back into the same cycle,
-             or I can take control of my future. I choose the latter. This time, 
-             I'm building something sustainable—something that allows me to work on my own terms and take care 
-             of my family the right way.</p>
-    
-        <p>To make that happen, I need <strong>$7,000</strong> to stay on track with my recovery
-             and <strong>$3,000</strong> to launch my business, ensuring I never end up in this position again.</p>
-    
-        <p>If you can help, I'd be incredibly grateful. Every donation, every share, every bit of support 
-            makes a real impact. This is my turning point, and I refuse to waste it.</p>
-    
-        <p>Thank you to everyone who has stood by me. Your support means everything.</p>
-    </div>
-    
-    
-<div class="gofundme-container">
-    <label for="gofundme-link" class="gfund"><strong>gofund.me link</strong></label>
-    <div class="input-button-group">
-        <input type="text" id="gofundme-link" value="gofund.me/6177ffc3" readonly>
-    <a href="https://www.gofundme.com/f/help-me-overcome-ptsd-dependance-and-autoimmune-disease?attr
-    ibution_id=sl:138eb40b-0ef2-4469-8f0a-2a3357b6e97e&lang=en_US&utm_campaign=man_sharesheet_dash&u
-    tm_content=amp13_t1-amp14_c&utm_medium=customer&utm_source=copy_link"><button class="gofundme-btn" >gofund.me</button></a>    
-    </div>
-</div>
 
-
-<script src="script.js"></script>
 </body>
 </html>
