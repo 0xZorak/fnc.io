@@ -23,6 +23,10 @@
             .then(data => document.getElementById("header").innerHTML = data)
             .catch(error => console.error("Error loading header:", error));
 
+            const script = document.createElement("script");
+                script.src = "../script.js";
+                document.body.appendChild(script);
+
     </script>
     <div class="blog-container">
         <!-- Left Arrow SVG -->
