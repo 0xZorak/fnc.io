@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elegant Blog Section</title>
+    <title>Responsive Section</title>
     <style>
         * {
             margin: 0;
@@ -99,6 +100,88 @@
 
             .blog-media img {
                 max-width: 80%;
+            font-family: Arial, sans-serif;
+        }
+
+        .summary {
+           
+            color: #626266;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            padding: 20px;
+        }
+
+        .content-section {
+            display: flex;
+            align-items: center;
+            max-width: 1000px;
+            width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+            gap: 84px;
+            
+        }
+
+        .image-container {
+            flex: 1;
+            max-width: 340px;
+            max-height: 550px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            border-radius: 12px 0 0 12px;
+        }
+
+        .text-container {
+            flex: 1;
+            padding: 10px;
+            max-width: 605px;
+            height: 280px;
+        }
+
+        .text-container h2 {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        .text-container p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #e6e6e6;
+            font-family: "Work Sans", serif;
+            font-weight: 600;
+        }
+
+        .text-container em {
+            font-weight: bold;
+            font-style: italic;
+            color: #ccc;
+        }
+    }
+
+        @media (max-width: 768px) {
+            .content-section {
+                flex-direction: column;
+            }
+
+            .image-container {
+                max-width: 100%;
+            }
+
+            .image-container img {
+                border-radius: 12px 12px 0 0;
+            }
+
+            .text-container {
+                max-width: 100%;
+                padding: 20px;
             }
         }
     </style>
@@ -120,5 +203,19 @@
         </div>
     </div>
 
+<section class="summary">
+    <div class="content-section">
+        <div class="image-container">
+            <img src="image/summary.png" alt="Team Discussion">
+        </div>
+        <div class="text-container">
+            <p>At FNC, we believe in building long-term relationships based on trust, reliability, and innovation. If you're looking for a fully dedicated vendor to handle your IT and consulting needs with zero downtime, we are here for you—but premium service comes at a premium price.</p>
+
+            <p>Let's talk about how this shift benefits your business. Get in touch to discuss customized coverage options, pricing, and exclusive vendor agreements that keep your operations running at peak efficiency.</p>
+
+            <p><em>Five Nines Consulting – Precision, Reliability, and Now, Always Available.</em></p>
+        </div>
+    </div>
+</section>
 </body>
 </html>
