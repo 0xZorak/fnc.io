@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five Nines Consulting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" rel="stylesheet"
+        >
+        <link rel="stylesheet" href="https://sets.hugeicons.com/YOUR-SET-ID.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/nav_styles.css">
+    <link rel="stylesheet" href="styles/index_styles/styles.css">
+    <link rel="stylesheet" href="styles/footer.css">
+</head>
+<body>
+
+    <div id="header"></div>
+
+    <script>
+        fetch("../components\header.html")
+            .then(response => response.text())
+            .then(data => document.getElementById("header").innerHTML = data);
+    </script>
+    <div class="blog-container">
+        <!-- Left Arrow SVG -->
+       <img src="images/arrow-left-02.png" alt="Left Arrow" class="arrow">
+
+        <div class="blog-section">
+            <img src="images/Frame 26088187.png" alt="Butterfly Design">
+            <div class="blog-content">
+                <h4>BLOG BY VASILLY S. IVANOV AND PRECIOUS O. NNAGBTA</h4>
+                <h2>The Observer’s Hand</h2>
+                <p>March 2025</p>
+            </div>
+        </div>
+    </div>
+    <section class="founder-section2">
+        <div class="founder-container2">
+           
+            <div class="founder-image2">
+                <img src="image/about_image/Rectangle 123.png" alt="Founder Image">
+                
+            </div>
+          
+            <div class="founder-content2">
+                <h2><stron>Military Service & Technical Mastery</strong></h2>
+                <p>Vasiliy enlisted in the U.S. Army as an IT specialist, quickly rising to prominence within the 82nd Airborne Division. He became a go-to expert for mission-critical IT operations, network security, and tactical infrastructure deployment. Deployed to Afghanistan, Vasiliy took on responsibilities far beyond his rank, ensuring seamless technical operations in high-pressure environments.
+                </p>
+
+                <p>
+                    His ability to break down complex IT problems into step-by-step solutions allowed even non-technical personnel to execute high-level troubleshooting—an approach that would later define his leadership style.
+                </p>
+                
+            
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
