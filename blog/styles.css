@@ -68,7 +68,7 @@ body{
 .blog-show {
     display: flex;
     
-    align-items: flex-end; /* Align text baseline with the image */
+    
 }
 
 .blog-show img {
@@ -81,15 +81,17 @@ body{
     margin-left: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding-bottom: 5px; /* Align text properly */
 }
 
 .blog-content h4 {
     font-size: 12px;
     text-transform: uppercase;
-    color: #555;
+    color: #626262;
     letter-spacing: 1px;
+    font-family: "Work Sans", serif;
+    font-weight: 500;
 }
 
 .blog-content h2 {
@@ -369,6 +371,7 @@ p{
 /* Header Styling */
 .comparison-header {
     display: contents;
+    font-family: "Montserrat", serif;
 }
 
 .comparison-header div {
@@ -388,7 +391,10 @@ p{
 
 }
 .comparison-row .feature{
-    font-family: "Montserrat", serif;
+    
+}
+.comparison-row strong{
+    display: none;
 }
 
 .comparison-row div {
@@ -404,6 +410,9 @@ p{
         flex-direction: column;
     }
 
+    .comparison-row strong{
+        display: block;
+    }
     .comparison-header {
         display: none; /* Hide table headers on mobile */
     }
