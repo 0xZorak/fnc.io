@@ -3,9 +3,10 @@
     height: 450px;
 }
 .hero{
-    margin-top: -20px;
+    padding-bottom: 90px;
 }
-@media (max-width: 767px) {
+
+@media (max-width: 1024px) {
     .hero h1{
 font-size: 40px;
     }
@@ -165,7 +166,7 @@ height: 400px;
      }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
      .founder-image2 {
           max-width: 372px;
           max-height: 302px;
@@ -327,7 +328,7 @@ height: 400px;
      }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
      .founder-image3 {
           max-width: 372px;
           max-height: 302px;
@@ -546,7 +547,7 @@ height: 400px;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
     .footer-container {
         padding: 10px;
     }

@@ -22,7 +22,7 @@ body, html {
     box-sizing: border-box;
     margin: auto;
 }
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
     .services-section{
         width: 100%;
         padding: 0 20px; 
@@ -131,7 +131,7 @@ body, html {
     max-width: 90vw;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
     .email-link {
         font-size: 20px;
         margin: auto;
@@ -293,7 +293,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-@media (max-width: 767px){
+@media (max-width: 1024px){
     .sub-text{
         font-size: 16px;
         
