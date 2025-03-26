@@ -212,8 +212,75 @@ span{
         align-items: center;
     }
 
-    .service-card {
-        width: 90%;
+    @media (max-width: 1024px) {
+        .services-container {
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .service-card {
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .card-1, .card-2 {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-1 .icon-wrapper img {
+            width: 100px;
+            height: 100px;
+            margin-top: 50%;
+        }
+
+        .card-2 .icon-wrapper img {
+            width: 120px;
+            height: 120px;
+            margin-top: 40%;
+        }
+
+        .secter {
+            flex-direction: column;
+            min-height: 15vh;
+        }
+
+        .section-heading {
+            font-size: 30px;
+            margin-top: 50px;
+        }
+
+        .hero-section {
+            max-width: 90%;
+        }
+
+        .hero-overlay {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .features-container {
+            gap: 20px;
+        }
+
+        .feature-card {
+            max-width: 90%;
+        }
+
+        .content-section {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .image-container {
+            max-width: 100%;
+        }
+
+        .text-container {
+            max-width: 100%;
+            text-align: center;
+        }
     }
     
 .card-1 .icon-wrapper img {

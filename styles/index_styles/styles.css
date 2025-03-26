@@ -1028,7 +1028,11 @@ flex-direction: row-reverse;
         max-width: 340px;
         width: 90%;
     }
+    .blog-section h2 {
+text-align: center;
 
+
+}
 }
 
 .blog-contain {
@@ -1127,6 +1131,7 @@ flex-direction: row-reverse;
 
     .blog-content h2 {
         font-size: 36px;
+        
     }
 
     .blog-content p {
@@ -1141,3 +1146,34 @@ flex-direction: row-reverse;
         max-width: 100%;
     }
 }
+
+
+
+a{
+    text-decoration: none;
+}
+.blog-card:hover {
+    color: #ff5722;
+}
+.linker h3:hover, .linker p:hover, .linker:hover{
+    color: #ff5722;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1);
+}
+.linker img:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
