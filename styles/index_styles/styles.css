@@ -202,6 +202,9 @@ height: 344px ;
 /* Text Content */
 .founder-content {
    width: 700px;
+   align-items: flex-end;
+   align-self: flex-end;
+   padding-bottom: 15px;
 }
 
 .founder-content h2 {
@@ -239,7 +242,8 @@ font-weight: 600;
     border: 2px solid #171716;
     border-radius: 7px;
     text-decoration: none;
-    color: #171716;
+    color: #fff;
+    background-color: #000;
     width: 190px;
     font-family: "Work Sans", serif;
     text-align: center;
@@ -255,7 +259,7 @@ font-weight: 600;
 }
 
 /* Responsive Design */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .founder-container {
         flex-direction: column-reverse;
         text-align: center;
@@ -271,6 +275,18 @@ font-weight: 600;
         max-width: 100%;
         flex-direction: column;
      
+    }
+}
+@media (max-width:1024px) and (min-width: 700px){
+    .founder-container{
+        gap: 10px;
+
+    }
+    .block{
+        width: 40%;
+    }
+    body{
+        padding: 10px;
     }
 }
 
@@ -393,7 +409,7 @@ font-weight: 600;
     }
     .block{
         display: block;
-        width: 100%;
+        width: 50%;
         font-weight: 600;
        font-family: "Montserrat", serif;
 
@@ -988,7 +1004,14 @@ flex-direction: row-reverse;
     width: 390px; /* Ensures uniform card width */
     text-align: left;
 }
-
+.new{
+    padding-top: 50px;
+    padding-bottom: 20px;
+   
+}
+.new .blog-card{
+    width: 329px;
+}
 /* Blog Images */
 .blog-card img {
     width: 100%;
@@ -1009,11 +1032,11 @@ flex-direction: row-reverse;
 
 /* Blog Titles */
 .blog-card h3 {
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: bold;
     color: #000;
     width: 100%;
-    font-family: "Work Sans", serif;
+    font-family: "Montserrat", serif;
     text-align: left;
    
 }
@@ -1049,11 +1072,15 @@ text-align: center;
     
 }
 
+
 /* Adjust text block */
 .blog-content {
     flex: 1;
     min-width: 600px;
     text-align: left; /* Default alignment for larger screens */
+}
+.new .blog-content{
+    min-width: 400px;
 }
 
 .blog-content small {
@@ -1145,6 +1172,7 @@ text-align: center;
     .blog-media img {
         max-width: 100%;
     }
+    
 }
 
 
@@ -1163,6 +1191,10 @@ a{
 .linker img:hover{
     transition: transform 0.3s ease-in-out;
     transform: scale(1.1);
+}
+
+.mfa{
+    padding-top: 50px;
 }
 
   
