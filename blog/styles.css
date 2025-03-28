@@ -6,6 +6,8 @@
 }
 body{
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
@@ -184,7 +186,7 @@ body{
 }
 
 /* Responsive Design */
-@media (max-width: 600px) {
+@media (max-width: 769px) {
     .content-section {
         flex-direction: column;
         text-align: center;
@@ -544,4 +546,10 @@ b{
 }
 .road-step{
     padding-bottom: 3px;
+}
+@media (min-width: 1024px){
+.blog-p.vet{
+max-width: 950px;
+margin: 0px 70px;
+}
 }

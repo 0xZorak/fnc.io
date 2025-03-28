@@ -91,7 +91,7 @@ height: 400px;
 .founder-image2 img {
      height: 100%;
      width: 100%;
-     max-width: 450px;
+     max-width: 500px;
      object-fit: fill;
 }
 
@@ -151,13 +151,13 @@ height: 400px;
 /* Responsive Design */
 @media (max-width: 1024px) {
      .founder-container2 {
-          flex-direction: column-reverse;
+          flex-direction: column;
           text-align: center;
           gap: 40px;
      }
 
      .founder-image2 {
-          max-width: 60%;
+          max-width: 100%;
      }
 
      .founder-content2 {
@@ -168,16 +168,16 @@ height: 400px;
 
 @media (max-width: 1024px) {
      .founder-image2 {
-          max-width: 372px;
+          max-width: 500px;
           max-height: 302px;
-          margin-top: -14px;
+          margin-top: -314px;
      }
 
      .founder-container2 {
           height: fit-content;
           position: relative;
           height: fit-content;
-          flex-direction: column-reverse;
+          flex-direction: column;
           padding: 20px;
           margin-top: 550px;
      }
