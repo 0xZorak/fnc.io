@@ -1269,8 +1269,8 @@ a{
   
   
 .butts{
-    max-width: 1050px;
-    margin: 10px -10px;
+    max-width: 850px;
+    margin: 10px 50px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -1290,7 +1290,7 @@ a{
 @media (max-width: 1024px){
     .butts{
         padding: 10px;
-        display: inline-flex;
+        display: none;
 margin: 10px -20px;
     }
     .type{
