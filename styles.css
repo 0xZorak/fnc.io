@@ -339,3 +339,13 @@ h2 {
     opacity: 1;
     transform: translateY(0);
 }
+@media (max-width: 1024px){
+.mft{
+    padding-bottom: 1000px;
+}
+}
+@media (max-width:1024px) and (min-width: 768px){
+    .mft{
+        padding-top: 100px;
+    }
+}

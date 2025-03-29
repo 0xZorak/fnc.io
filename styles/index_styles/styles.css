@@ -342,6 +342,11 @@ font-weight: 600;
 }
     
 }
+@media (max-width: 1024px){
+    .founder-container.animate{
+        padding-bottom: 200px;
+    }
+}
 
 @media (min-width: 769px){
     .about-section {
