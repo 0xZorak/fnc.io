@@ -3,12 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Blog Section</title>
     <title>Responsive Section</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        .blog-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            max-width: 1100px;
+            margin: auto;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-content {
+            flex: 1;
+            min-width: 320px;
+        }
+
+        .blog-content small {
+            font-size: 12px;
+            color: #888;
+            text-transform: uppercase;
+        }
+
+        .blog-content h2 {
+            font-size: 36px;
+            color: #222;
+            margin-top: 5px;
+        }
+
+        .blog-content p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+
+        .blog-media {
+            flex: 1;
+            min-width: 320px;
+            text-align: center;
+        }
+
+        .blog-media img {
+            width: 100%;
+            max-width: 340px;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .blog-media img:hover {
+            transform: scale(1.05);
+        }
+
+        .blog-meta {
+            font-size: 12px;
+            color: gray;
+            margin-top: 10px;
+            text-transform: uppercase;
+        }
+
+        .blog-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #222;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .blog-container {
+                flex-direction: column;
+                text-align: center;
+                padding: 30px;
+            }
+
+            .blog-media {
+                margin-top: 20px;
+            }
+
+            .blog-media img {
+                max-width: 80%;
             font-family: Arial, sans-serif;
         }
 
@@ -73,6 +164,7 @@
             font-style: italic;
             color: #ccc;
         }
+    }
 
         @media (max-width: 768px) {
             .content-section {
@@ -95,6 +187,22 @@
     </style>
 </head>
 <body>
+
+    <div class="blog-container">
+        <div class="blog-content">
+            <small>Blog</small>
+            <h2>Insights</h2>
+            <p>Welcome to the Five Nines Blog. Here, we share insights, industry trends, and tips on Web3 development, 
+               digital transformation, and AI. Whether you’re a tech enthusiast or a business leader, you’ll find 
+               valuable content to inspire and inform. Join us on our journey to explore the latest in digital solutions.</p>
+        </div>
+        <div class="blog-media">
+            <img src="image/Frame 26088157.png" alt="Blockchain Image">
+            <div class="blog-meta">Blog by Vasily S. Ivanov</div>
+            <div class="blog-title">MFA NFT Marketplace Whitepaper</div>
+        </div>
+    </div>
+
 <section class="summary">
     <div class="content-section">
         <div class="image-container">
