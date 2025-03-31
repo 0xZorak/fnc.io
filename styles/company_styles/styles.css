@@ -237,7 +237,7 @@ height: 400px;
 
 .founder-container3 {
      display: flex;
-     flex-direction: row-reverse;
+     flex-direction: row;
      gap: 100px;
      max-width: 1200px;
      align-items: center;
@@ -416,6 +416,7 @@ height: 400px;
     padding: 20px;
     margin-left: 70px;
     margin-right: 70px;
+    display: none;
 }
 
 .contact-us h3 {
