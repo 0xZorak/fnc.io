@@ -428,6 +428,9 @@ height: 400px;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
+.news p{
+padding-bottom: 20px;
+}
 
 .contact-us hr {
     border: none;
