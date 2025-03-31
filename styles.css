@@ -63,6 +63,9 @@ body, html {
     cursor: pointer;
     color: black;
 }
+.menu-button:hover{
+    color: #fff;
+}
 
 @media (min-width: 768px) {
     .nav-links {

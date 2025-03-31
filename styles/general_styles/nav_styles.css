@@ -19,8 +19,7 @@
 .navbar-brand img {
     height: 91px;
     width: 157px;
-    height: 70px;
-    width: 170px;
+   
 }
 
 .cont{
@@ -153,7 +152,7 @@
     }
     
     .navbar-brand img {
-        height: 79px;
+        height: 91px;
         width: 157px;
         border-radius: 0;
     }
