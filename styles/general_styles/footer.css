@@ -95,9 +95,10 @@
 
 .footer-logo {
     margin-top: 15px;
-    width: 149px;
-    height: 59px;
+    width: 182px;
+    height: 115px;
     border-radius: 0;
+    content: url('../../image/general_image/fncnewlogo.png');
 }
 
 .social-links a {

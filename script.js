@@ -66,3 +66,37 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", checkVisibility);
     checkVisibility(); // Run on load in case elements are already visible
 });
+
+
+// Function to animate the cards when in viewport
+function revealCards() {
+    let cards = document.querySelectorAll(".service-card");
+
+    let observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = "1";
+                entry.target.style.transform = "perspective(600px) rotateY(0deg)";
+            }
+        });
+    }, { threshold: 0.2 });
+
+    cards.forEach((card) => observer.observe(card));
+}
+
+// Call the function
+revealCards();
+
+document.addEventListener("DOMContentLoaded", function () {
+    const fadeItems = document.querySelectorAll(".appear-effect");
+
+    const watchScroll = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("showing");
+            }
+        });
+    }, { threshold: 0.2 });
+
+    fadeItems.forEach(item => watchScroll.observe(item));
+});

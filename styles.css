@@ -319,22 +319,21 @@ h2 {
 
 /* Slide from Bottom (Up) */
 .animate-slide-up {
-    transform: translateY(100px); /* Start below */
+    transform: translateY(100px); 
 }
 
 .animate-slide-up.visible {
     opacity: 1;
-    transform: translateY(0); /* Move up to normal position */
+    transform: translateY(0);
 }
 
-/* Default: Hide all kittens */
+
 .kitty-box {
     opacity: 0;
     transform: translateY(50px); /* Starts below */
     transition: opacity 0.4s ease-out, transform 0.7s ease-out;
 }
 
-/* When visible, make the kittens appear! */
 .kitty-box.meow {
     opacity: 1;
     transform: translateY(0);
@@ -349,3 +348,19 @@ h2 {
         padding-top: 100px;
     }
 }
+
+
+.appear-effect {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.appear-effect.showing {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+
