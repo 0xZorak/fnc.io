@@ -20,6 +20,7 @@
     height: 91px;
     width: 157px;
     content: url('../../image/general_image/newlogo.png');
+    margin-top: 12px;
    
 }
 
@@ -156,6 +157,7 @@
         height: 91px;
         width: 157px;
         border-radius: 0;
+        margin-top: 50px;
     }
     
     .nav-links {
