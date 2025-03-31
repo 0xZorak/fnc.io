@@ -18,7 +18,7 @@
 
 .navbar-brand img {
     height: 91px;
-    width: 157px;
+    width: 169px;
     content: url('../../image/general_image/newlogo.png');
     margin-top: 12px;
    
@@ -155,9 +155,10 @@
     
     .navbar-brand img {
         height: 91px;
-        width: 157px;
+        width: 177px;
         border-radius: 0;
         margin-top: 50px;
+        margin-left: -20px;
     }
     
     .nav-links {
