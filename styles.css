@@ -103,7 +103,7 @@ body, html {
     max-width: 90vw;
    
     margin-bottom: 10px;
-    text-align: left;
+    text-align: center;
   
    
     color: #000;
@@ -116,7 +116,7 @@ body, html {
     font-size: 18px;
     font-family: "Work Sans", serif; 
     font-weight: 500;
-  text-align: left; 
+  text-align: center; 
 
   max-width: 90vw;
    
@@ -124,7 +124,7 @@ body, html {
 
 .email-link {
     color: #FF6B35;
-    text-align: left;
+    text-align: center;
     font-size: 28px;
     line-height: 21.11px;
     font-weight: 500;
@@ -145,9 +145,27 @@ body, html {
     }
     .cntact-section h1{
         font-size: 30px;
-        
-        margin: auto;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
+    .cntact-section{
+        width: 100%;
+        padding-top: 30px;
+    }
+    .cntact-section p{
+        text-align: center;
+    }
+    .cntact-section a{
+        text-align: center;
+    }
+      
+.contacts{
+    margin: 0 auto;
+
+    text-align: center;
+}
+
 }
 
 .form-container {
@@ -189,7 +207,7 @@ form {
     font-size: 14px;
     line-height: 16.42px;
     margin-bottom: 5px;
-    background-color: #3d3d3d;
+    background-color: #ff5722;
     width: 200px;
     text-decoration: none;
     padding: 8px 16px;
