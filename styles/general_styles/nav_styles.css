@@ -19,6 +19,7 @@
 .navbar-brand img {
     height: 91px;
     width: 157px;
+    content: url('../../image/general_image/newlogo.png');
    
 }
 
