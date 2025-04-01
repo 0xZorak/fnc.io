@@ -264,6 +264,9 @@ font-weight: 600;
     .blocked{
         
     }
+    .founder-image img{
+
+    }
 }
 
 /* Responsive Design */
@@ -296,13 +299,17 @@ font-weight: 600;
     body{
         padding: 10px;
     }
+    .founder-image{
+        margin-bottom: 300px;
+    }
 }
 
 @media (max-width: 768px) {
     .founder-image {
-        max-width: 372px;
+        max-width: 500px;
         max-height: 302px;
-        margin-top: -14px;
+        margin-top: 14px;
+        margin-bottom: 30px;
         
     }
 .founder-container{
@@ -1325,3 +1332,18 @@ margin: 10px -20px;
   
   
   
+@media (max-width:1024px) and (min-width: 700px){
+    .founder-container{
+        gap: 10px;
+
+    }
+    .block{
+        width: 40%;
+    }
+    body{
+        padding: 10px;
+    }
+    .founder-image{
+        margin-bottom: 70px;
+    }
+}

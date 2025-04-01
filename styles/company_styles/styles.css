@@ -41,7 +41,8 @@ font-size: 40px;
 }
 @media (min-width: 769px) {
     .founder-image{
-height: 400px;
+height: auto;
+
     }
     .founder-content{
         height: 400px;
