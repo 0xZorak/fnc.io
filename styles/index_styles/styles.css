@@ -188,8 +188,8 @@ img {
 
 /* Image Styling */
 .founder-image {
-  max-width: 500px;
-height: 344px ;
+  max-width: 600px;
+height: auto ;
 margin-top: -14px;
 padding-top: 30px;
 }
@@ -197,7 +197,7 @@ padding-top: 30px;
 .founder-image img {
    height: 100%;
    width: 100%;
-   max-width: 450px;
+   max-width: 650px;
    object-fit: fill;
 }
 
@@ -996,9 +996,22 @@ flex-direction: row-reverse;
     margin-bottom: 20px;
     font-family: "Montserrat", serif;
     text-align: left;
-    margin: 4px 68px 12px;
+    margin: 0 auto;
+    padding: 60px;
 }
 
+.headerrr{
+    text-align: left;
+    max-width: 1248px; /* Ensures central alignment */
+    
+}
+.headerrr h1{
+    font-size: 32px;
+    font-family: "Montserrat", serif;
+padding-bottom: 20px;
+font-family: 700;
+color: #111;
+}
 
 .blog-container {
     display: flex;
