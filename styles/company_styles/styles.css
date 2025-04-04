@@ -640,13 +640,17 @@ align-self: center;
   @media (max-width: 1024px){
     .hero-company{
         flex-direction: column-reverse;
+        padding: 20px;
+        padding-top: 50px;
     }
     .company-text{
         text-align: justify;
-        margin-top: -120px;
+        margin-top: -90px;
     }
     .company-text h2{
         font-size: 32px;
+        padding-bottom: 10px;
+        text-align: center;
     }
     .company-text p{
         margin-top: -5px;
@@ -729,24 +733,30 @@ align-self: center;
 
   @media (max-width: 768px){
     .mission-section{
-        padding-top: 10px;
+        padding-top: ;
+        padding: ;
+        margin-top: -80px;
     }
     .mission-text{
         flex-direction: column;
-        padding: 10px;
+        padding: 20px;
         gap: 10px;
     }
     .mission-text h2{
         width: 100%;
         text-align: center;
+        
     }
     .mission-text p{
         width: 100%;
         text-align: justify;
+        margin-top: -10px;
+        padding-bottom: 20px;
     }
     .mission-images, .smaller, .larger{
         overflow-x: auto;
     }
   }
 
+  
   
