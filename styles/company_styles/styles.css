@@ -1309,3 +1309,29 @@ a svg:hover{
 .lasty{
     font-size: 42px;
 }
+.work-out h3, .tehrus-text h3{
+    font-family: "Montserrat", serif;
+    color: #111;
+    font-size: 28px;
+    font-weight: bold;
+}
+@media (min-width: 1024px){
+.foun{
+    margin-top: -80px;
+}
+section{
+    padding-top: 30px;
+}
+}
+@media (max-width: 768px){
+    .work-out.foun h3, .found h3{
+        font-size: 20px;
+    }
+    .foun{
+        padding-top: 50px;
+    }
+    .work-out.foun{
+        margin-top: -50px;
+    }
+
+}
