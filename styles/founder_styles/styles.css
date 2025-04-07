@@ -337,7 +337,10 @@ padding-bottom: 20px;
 @media (max-width: 768px){
     .para{
         padding: 20px;
-        margin-top: -10px;
+        margin-top: 10px;
     }
-
+.para p{
+    font-size: 16px;
+    text-align: left;
+}
 }
