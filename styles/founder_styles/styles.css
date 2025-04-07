@@ -437,6 +437,8 @@ line-height: 1.6;
     padding: 20px;
     align-items: center;
     justify-content: center;
+    padding-top: 40px;
+    margin-top: 20px;
 }
 .read-mfa{
     padding: 0px;
