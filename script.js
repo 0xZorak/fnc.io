@@ -102,5 +102,17 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+// Add click event listener to gallery images
+const galleryItems = document.querySelectorAll('.gallery-item');
+const introImg = document.getElementById('intro-img');
+
+galleryItems.forEach(item => {
+    item.addEventListener('click', () => {
+        // Replace the intro image with the clicked gallery image
+        introImg.src = item.src;
+    });
+});
+
+
 
 
