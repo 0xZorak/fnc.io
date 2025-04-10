@@ -114,5 +114,21 @@ galleryItems.forEach(item => {
 });
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    const zoomObserver = new IntersectionObserver((entries, zoomObserver) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          zoomObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+    });
+
+    const zoomElements = document.querySelectorAll('[data-zoom="true"]');
+    zoomElements.forEach(element => zoomObserver.observe(element));
+  });
+
+
 
 
