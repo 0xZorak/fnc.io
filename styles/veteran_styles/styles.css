@@ -176,23 +176,36 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 10px;
-    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.692));
-    color: white;
+    padding: 15px;
+    color: #626262;
     text-align: left;
     border-radius: 0 0 10px 10px;
     opacity: 1;  /* Always visible */
+    height: 40%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
   }
   
   .card-overlay h3 {
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.6;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.4;
     margin: 0;
-    color: #d8d8d8;
+    color: #333;
     font-family: "Montserrat", sans-serif;
     text-align: left;
 text-transform: capitalize;    
+  }
+  .signer{
+    display: inline-flex;
+    gap: 5px;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
   }
   
   /* Zoom effect on hover */
@@ -612,6 +625,18 @@ text-transform: capitalize;
   }
   .eligibility ul{
     margin-left: 0px;
+    text-align: left;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+  }
+  .eligibility p{
+    text-align: left;
+  }
+  .eligibility h2{
+    text-align: left;
   }
   .btns{
     flex-direction: column;
@@ -620,8 +645,11 @@ text-transform: capitalize;
   }
   .white-btn{
     max-width: 100%;
-    width: 70%;
+    width: 100%;
     text-align: center;
+  }
+  .why-join-fnc p{
+    font-size: 16px;
   }
 }
 @media (max-width: 629px){
