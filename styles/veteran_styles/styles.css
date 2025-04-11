@@ -613,6 +613,16 @@ text-transform: capitalize;
   .eligibility ul{
     margin-left: 0px;
   }
+  .btns{
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+  }
+  .white-btn{
+    max-width: 100%;
+    width: 70%;
+    text-align: center;
+  }
 }
 @media (max-width: 629px){
   .card{
