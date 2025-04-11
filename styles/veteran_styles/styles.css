@@ -374,6 +374,9 @@ text-transform: capitalize;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
+  .apply-button a{
+    text-decoration: none;
+  }
   
   .apply-button:hover {
     background-color: #fff;
