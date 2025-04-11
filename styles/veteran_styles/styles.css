@@ -83,7 +83,7 @@ body{
 .grid1 img{
     max-width: 170px;
     filter: brightness(80%);
-    filter: grayscale(40%);
+    filter: grayscale(20%);
     opacity: 0.9;
 }
   
@@ -167,7 +167,7 @@ body{
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
     filter: brightness(70%);
-    filter: grayscale(40%);
+    filter: grayscale(20%);
   }
   
   /* Overlay with gradient (always visible) */
