@@ -464,152 +464,60 @@
       <button id="btnEmployment" onclick="switchForm('employment')">Join the Team</button>
     </div>
 
-    <form id="trainingForm" class="active">
-      <h3>Training Application</h3>
-      <label>Full Name</label>
-      <input type="text" name="fullName" required />
+   <form action="https://formspree.io/f/mgvkwwlp" method="POST" enctype="multipart/form-data">
+  <h3>Training Application</h3>
+  <label>Full Name</label>
+  <input type="text" name="fullName" required />
 
-      <label>Email Address</label>
-      <input type="email" name="email" required />
-      <label>Phone Number</label>
-      <input type="text" name="phone" required />
-      <label>Date of Birth</label>
-      <input type="date" name="dob" required />
-      <label>Gender</label>
-      <div class="checkbox-group">
-        <label><input type="radio" name="gender" value="Male" required /> Male</label>
-        <label><input type="radio" name="gender" value="Female" /> Female</label>
-        <label><input type="radio" name="gender" value="Prefer not to say" /> Prefer not to say</label>
-      </div>
-      <label>Country/City of Residence</label>
-      <input type="text" name="location" required />
+  <label>Email Address</label>
+  <input type="email" name="email" required />
 
-      <label>Address</label>
-      <input type="text" name="location" required />
-      <label>Postal Code</label>
-      <input type="text" name="location" required />
-      <label>Have you taken online training before?</label>
-      <div class="checkbox-group">
-        <label><input type="radio" name="trainingBefore" value="Yes" required /> Yes</label>
-        <label><input type="radio" name="trainingBefore" value="No" /> No</label>
-      </div>
+  <label>Phone Number</label>
+  <input type="text" name="phone" required />
 
-      <label>Areas of Interest</label>
-      <div class="checkbox-group">
-        <label><input type="checkbox" name="interest" value="Digital Marketing" /> Digital Marketing</label>
-        <label><input type="checkbox" name="interest" value="Web Development" /> Web Development</label>
-        <label><input type="checkbox" name="interest" value="Content Writing" /> Content Writing</label>
-        <label><input type="checkbox" name="interest" value="Graphic Design" /> Graphic Design</label>
-        <label><input type="checkbox" name="interest" value="Programming" /> Programming</label>
-        <label><input type="checkbox" name="interest" value="Social Media Management" /> Social Media Management</label>
-      </div>
+  <label>Date of Birth</label>
+  <input type="date" name="dob" required />
 
-      <label>How many hours can you commit per week?</label>
-      <div class="custom-select-wrapper">
-        <div class="custom-select" data-name="availability">
-          <div class="select-trigger">--Select--</div>
-          <div class="options">
-            <div class="option">1–5 hrs</div>
-            <div class="option">6–10 hrs</div>
-            <div class="option">11–20 hrs</div>
-            <div class="option">20+ hrs</div>
-          </div>
-        </div>
-        <input type="hidden" name="availability" required />
-      </div>
-      
+  <label>Gender</label>
+  <div class="checkbox-group">
+    <label><input type="radio" name="gender" value="Male" required /> Male</label>
+    <label><input type="radio" name="gender" value="Female" /> Female</label>
+    <label><input type="radio" name="gender" value="Prefer not to say" /> Prefer not to say</label>
+  </div>
 
-      <label>Motivation Statement</label>
-      <textarea name="motivation" rows="4" required placeholder="Why do you want to take part in this training program?"></textarea>
+  <label>Country/City of Residence</label>
+  <input type="text" name="location" required />
 
-      <button class="submit-btn" type="submit">Submit</button>
-      <div class="success-msg" id="trainingSuccess">Thank you! Your training application has been saved locally.</div>
-    </form>
+  <label>Address</label>
+  <input type="text" name="address" required />
 
-    <form id="employmentForm">
-      <h3>Employment / Team Application</h3>
-      <label>Full Name</label>
-      <input type="text" name="fullName" required />
-      <label>Email Address</label>
-      <input type="email" name="email" required />
-      <label>Phone Number</label>
-      <input type="text" name="phone" required />
-      <label>Country/City of Residence</label>
-      <input type="text" name="location" required />
+  <label>Postal Code</label>
+  <input type="text" name="postalCode" required />
 
-      <label>Address</label>
-      <input type="text" name="location" required />
-      <label>Postal Code</label>
-      <input type="text" name="location" required />
-      <label>Role Interests</label>
-      <div class="checkbox-group">
-        <label><input type="checkbox" name="roleInterest" value="Trainer / Skills Instructor" /> Trainer / Skills Instructor</label>
-        <label><input type="checkbox" name="roleInterest" value="Admin / Coordinator" /> Admin / Coordinator</label>
-        <label><input type="checkbox" name="roleInterest" value="Digital Marketer" /> Digital Marketer</label>
-        <label><input type="checkbox" name="roleInterest" value="Volunteer" /> Volunteer</label>
-      </div>
+  <label>Have you taken online training before?</label>
+  <div class="checkbox-group">
+    <label><input type="radio" name="trainingBefore" value="Yes" required /> Yes</label>
+    <label><input type="radio" name="trainingBefore" value="No" /> No</label>
+  </div>
 
-     
+  <label>Areas of Interest</label>
+  <div class="checkbox-group">
+    <label><input type="checkbox" name="interest[]" value="Digital Marketing" /> Digital Marketing</label>
+    <label><input type="checkbox" name="interest[]" value="Web Development" /> Web Development</label>
+    <label><input type="checkbox" name="interest[]" value="Content Writing" /> Content Writing</label>
+    <label><input type="checkbox" name="interest[]" value="Graphic Design" /> Graphic Design</label>
+    <label><input type="checkbox" name="interest[]" value="Programming" /> Programming</label>
+    <label><input type="checkbox" name="interest[]" value="Social Media Management" /> Social Media Management</label>
+  </div>
 
-      <label>Years of Experience</label>
-      <div class="custom-select-wrapper">
-        <div class="custom-select" data-name="availability">
-          <div class="select-trigger">--Select--</div>
-          <div class="options">
-            <div class="option">Less than 1 year</div>
-            <div class="option">1–2 years</div>
-            <div class="option">3–5 years</div>
-            <div class="option">5+ years</div>
-          </div>
-        </div>
-        <input type="hidden" name="experience" required />
-      </div>
-      
+  <label>Motivation Statement</label>
+  <textarea name="motivation" rows="4" required placeholder="Why do you want to take part in this training program?"></textarea>
 
+  <label>Upload your CV</label>
+  <input type="file" name="cv" accept=".pdf,.doc,.docx,.png,.jpg,.jpeg" />
 
-
-      <label>Highest Level of Education</label>
-      <div class="custom-select-wrapper">
-        <div class="custom-select" data-name="availability">
-          <div class="select-trigger">--Select--</div>
-          <div class="options">
-            <div class="option">High School</div>
-            <div class="option">Diploma</div>
-            <div class="option">Bachelor’s</div>
-            <div class="option">Master’s</div>
-            <div class="option">other</div>
-
-          </div>
-        </div>
-        <input type="hidden" name="experience" required />
-      </div>
-
-      <label>Upload your CV</label>
-      <div class="file-upload-wrapper">
-        <input type="file" name="cv" id="cvUpload" hidden accept=".pdf,.doc,.docx,.png,.jpg,.jpeg" />
-        <label for="cvUpload" class="file-upload-label">
-            <i class="fa-light fa-cloud-arrow-up" style="color: #ff6b35;"></i> Choose File
-        </label>
-        <div class="file-preview">
-          <div class="file-thumbnail">
-            <!-- Image or icon will be inserted here -->
-          </div>
-          <span class="file-upload-name">No file chosen</span>
-        </div>
-      </div>
-      
-
-      <label>Portfolio Link (if applicable)</label>
-      <input type="url" name="portfolio" />
-      <label>LinkedIn Profile (optional)</label>
-      <input type="url" name="linkedin" />
-
-      <label>Motivation Statement</label>
-      <textarea name="motivation" rows="4" required placeholder="Why do you want to work or volunteer with us?"></textarea>
-
-      <button class="submit-btn" type="submit">Submit</button>
-      <div class="success-msg" id="employmentSuccess">Thank you! Your employment application has been saved locally.</div>
-    </form>
+  <button class="submit-btn" type="submit">Submit</button>
+</form>
 
     <!-- Success Popup -->
 <div id="successPopup" class="popup">
