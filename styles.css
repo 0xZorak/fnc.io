@@ -21,6 +21,8 @@ body, html {
     padding: 0 20px; 
     box-sizing: border-box;
     margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 @media (max-width: 1024px) {
     .services-section{
