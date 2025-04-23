@@ -409,6 +409,7 @@ height: auto;
     line-height: 18.77px;
     text-transform: uppercase;
     margin: 0;
+    text-align: center;
 }
 
 
@@ -548,7 +549,7 @@ padding-bottom: 20px;
 
     .footer-bottom {
         text-align: left;
-        margin: 0 70px;
+        margin: 0 auto;
     }
 }
 

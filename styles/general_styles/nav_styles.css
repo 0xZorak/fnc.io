@@ -57,6 +57,7 @@
 .nav-links a.active {
     color: #FF6B35;
     font-weight: bold;
+    font-family: "Work Sans", serif;
 }
 
 .cts-button {
