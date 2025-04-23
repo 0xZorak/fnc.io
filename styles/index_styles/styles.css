@@ -1638,3 +1638,8 @@ margin-bottom: -6px;
         
     }
   }
+  @media (max-width: 768px){
+    .new-blogs h2{
+        font-size: 32px;
+    }
+  }
