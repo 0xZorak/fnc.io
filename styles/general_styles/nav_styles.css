@@ -21,10 +21,10 @@
     width: 169px;
     content: url('../../image/general_image/newlogo.png');
     margin-top: 12px;
-   
+
 }
 
-.cont{
+.cont {
     text-decoration: none;
     background-color: #FF6B35;
     padding: 14.5px 20px;
@@ -34,6 +34,7 @@
     color: white;
     margin-right: 20px;
 }
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -52,6 +53,8 @@
     font-size: 16px;
     transition: color 0.3s ease;
     position: relative;
+    font-family: "Work Sans", serif;
+
 }
 
 .nav-links a.active {
@@ -72,12 +75,12 @@
 
 @media (min-width: 768px) {
     .nav-links {
-        display: flex; 
+        display: flex;
         flex-direction: row;
         position: static;
         box-shadow: none;
         background-color: transparent;
-        
+
     }
 }
 
@@ -93,7 +96,7 @@
 
 .nav-links a.active {
     color: #FF6B35;
-    font-family: sans;
+    font-family: "Work Sans", serif;
     font-weight: bold;
 }
 
@@ -119,12 +122,12 @@
 }
 
 .nav-links .cts-button {
-    display: none; 
+    display: none;
 }
 
 @media (max-width: 767px) {
     .nav-links .cts-button {
-        display: block; 
+        display: block;
         background-color: #FF6B35;
         color: white;
         padding: 12px 24px;
@@ -133,13 +136,16 @@
         text-align: center;
         margin-top: 10px;
     }
-    .cont{
-        display: none;    }
+
+    .cont {
+        display: none;
+    }
+
     .navbar {
         font-family: "Work Sans", serif;
         font-size: 16px;
         line-height: 18.77px;
-    
+
         font-style: normal;
         display: flex;
         justify-content: space-between;
@@ -149,11 +155,11 @@
         margin: 0 auto;
         padding: 0 20px;
         box-sizing: border-box;
-    
+
         height: 104.14px;
         background: white;
     }
-    
+
     .navbar-brand img {
         height: 91px;
         width: 177px;
@@ -161,26 +167,25 @@
         margin-top: 50px;
         margin-left: -20px;
     }
-    
+
     .nav-links {
         list-style: none;
-        display: none; 
+        display: none;
         flex-direction: column;
         gap: 20px;
-        position: fixed; 
-        top: 5rem; 
-        right: 0; 
+        position: fixed;
+        top: 5rem;
+        right: 0;
         width: 100%;
         background-color: white;
         padding: 10px;
-        
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        z-index: 1000; 
-    }
-    
-    .nav-links.active {
-        display: flex; 
-    }
-    
-}
 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+}
