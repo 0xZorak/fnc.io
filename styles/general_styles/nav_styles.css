@@ -77,10 +77,11 @@
     .nav-links {
         display: flex;
         flex-direction: row;
-        position: static;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
         box-shadow: none;
         background-color: transparent;
-
     }
 }
 
@@ -138,7 +139,10 @@
     }
 
     .cont {
-        display: none;
+        display: inline-block;
+        margin-top: 10px;
+        margin-right: 0;
+        text-align: center;
     }
 
     .navbar {
