@@ -1247,6 +1247,81 @@
     }
 }
 
+
+/* Get In Touch Section Container */
+.get-in-touch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #E0E0E0; /* Uses your brand's deep purple */
+    color: #000000;
+    margin: 60px auto;
+    border-radius: 8px;
+    max-width: 1100px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.contact-content {
+    max-width: 650px;
+}
+
+/* Headings and Text */
+.contact-content h2 {
+    font-family: "Montserrat", serif;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.contact-content p {
+    font-family: "Work Sans", serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 35px;
+    color: #626262; /* A soft, readable light purple/gray */
+}
+
+/* Call to Action Button */
+.contact-btn {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px 36px;
+    border-radius: 30px; /* Pill-shaped button */
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Hover Effect */
+.contact-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    background-color: #f8f8f8;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .get-in-touch {
+        padding: 60px 20px;
+        margin: 40px 20px; /* Gives it breathing room on the sides for mobile */
+    }
+
+    .contact-content h2 {
+        font-size: 28px;
+    }
+
+    .contact-content p {
+        font-size: 16px;
+    }
+}
+
 /* Container */
 .vision {
     display: flex;
